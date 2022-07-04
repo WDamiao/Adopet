@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.logo {
+    display: none;
+}
+
+.navHeader {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem;
+    background-color: blue;
+}
+
+.icons {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20%;
+}
+
+.usuario {
+    
+}
+
+@media screen and (min-width: 768px) {
+    .logo, .usuario {
+        display: block;
+    }
+}
