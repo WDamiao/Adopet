@@ -1,7 +1,7 @@
 body {
     height: 100%;
     background-color: #3772FF;
-    background-image: url(../assets/imgTop.svg), url(../assets/imgDireita.svg), url(../assets/IlustraçãoGatoECao.png);
+    background-image: url(../assets/imgTop.svg),url(../assets/imgDireita.svg), url(../assets/IlustraçãoGatoECao.png);
     background-repeat: no-repeat;
     background-position: top left, right, bottom;
 }
