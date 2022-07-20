@@ -1,0 +1,28 @@
+body {
+    height: 100%;
+    background-color: #3772FF;
+    background-image: url(../assets/imgTop.svg), url(../assets/imgDireita.svg), url(../assets/IlustraçãoGatoECao.png);
+    background-repeat: no-repeat;
+    background-position: top left, right, bottom;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    padding: 3rem;
+    color: white;
+    gap: 2rem;
+}
+
+.cta {
+    background-color: #FC7071;
+    text-decoration: none;
+    padding: 1rem;
+    border-radius: 5px;
+    color: white;
+    width: 60vw;
+}
+

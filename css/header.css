@@ -8,7 +8,6 @@
     align-items: center;
     justify-content: space-between;
     padding: 3rem;
-    background-color: #36D6AD;
 }
 
 .icons {
@@ -16,10 +15,6 @@
     display: flex;
     align-items: center;
     gap: 20%;
-}
-
-.usuario {
-    
 }
 
 @media screen and (min-width: 768px) {
