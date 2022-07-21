@@ -1,9 +1,20 @@
 body {
-    height: 100%;
+    height: 920px;
     width: 100vw;
-    background-image: url(../../assets/Patas.png), url(../../assets/imgTop.svg), url(../../assets/imgEsquerda.png);
+    background-image: url(../../assets/Patas.png), url(../../assets/imgTop.svg);
     background-repeat: no-repeat;
-    background-position: top right, top left, left;
+    background-position: top right, top left;
+}
+
+.lateral {
+    position: absolute;
+    width: 85px;
+    height: 420px;
+    background-image: url(../../assets/imgEsquerda.png);
+    background-repeat: no-repeat;
+    left: 0;
+    top: 60%;
+    z-index: -1;
 }
 
 main {
@@ -22,14 +33,17 @@ main p {
 .input {
     display: flex;
     flex-direction: column;
+    gap: 2.5rem;
 }
 
 input {
-    padding: 0.5rem;
+    padding: 0.7rem;
+    background-color: #F6F6F6;
     width: 90vw;
+    border: none;
     border-radius: 5px;
-    border: gray solid 1px;
     text-align: center;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
 }
 
 main a {
@@ -51,7 +65,11 @@ button {
     border: none;
     color: white;
     padding: 1rem;
-    border-radius: 5px;
+    border-radius: 6px;
     width: 50%;
     margin-bottom: 15rem;
+}
+
+button:hover {
+    background-color: #ff9d9e;
 }

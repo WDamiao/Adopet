@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro | Adopet</title>
+    <title>Login | Adopet</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/header.css">
-    <link rel="stylesheet" href="../css/cadastro/cadastro.css">
+    <link rel="stylesheet" href="../css/cadastro/login.css">
     <link rel="stylesheet" href="../css/footer.css">
 </head>
 <body>
@@ -21,19 +21,21 @@
                 <a href="#"> <img src="../assets/Casa.png" alt="icone de página inicial"></a>
                 <a href="#"> <img src="../assets/Mensagens.png" alt="icone de mensagens"></a>
             </div>
-            <!-- <div class="usuario">
-                <a href="#"><img src="../assets/Usuário.png" alt="icone de usuário"></a>
-            </div> -->
         </nav>
     </header>
     <main>
+        <div class="lateral"></div>
         <h1><img class="logoTitulo" src="../assets/logoAazul.svg" alt=""></h1>
         <p>Já tem conta? Faça seu login:</p>
         <div class="input">
-            <label for="email">Email</label>
-            <input type="email" name="email" placeholder="insira seu email">
-            <label for="senha">Senha</label>
-            <input type="password" name="senha" placeholder="insira sua senha">
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" placeholder="insira seu email">
+            </div>
+            <div>
+                <label for="senha">Senha</label>
+                <input type="password" name="senha" placeholder="insira sua senha">
+            </div>
             <a href="#">Esqueci minha senha</a>
         </div>
         <button>Entrar</button>

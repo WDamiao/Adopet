@@ -1,9 +1,20 @@
 body {
+    position: relative;
     height: 100%;
     background-color: #3772FF;
-    background-image: url(../assets/imgTop.svg),url(../assets/imgDireita.svg), url(../assets/IlustraçãoGatoECao.png);
+    background-image: url(../assets/imgTop.svg),url(../assets/imgDireita.svg);
     background-repeat: no-repeat;
-    background-position: top left, right, bottom;
+    background-position: top left, right;
+}
+
+.ilustracao {
+    position: absolute;
+    z-index: -1;
+    width: 71%;
+    height: 350px;
+    bottom: 4rem;
+    background-repeat: no-repeat;
+    background-image: url(../assets/IlustraçãoGatoECao.png);
 }
 main {
     display: flex;
@@ -21,8 +32,16 @@ main {
     background-color: #FC7071;
     text-decoration: none;
     padding: 1rem;
-    border-radius: 5px;
+    border-radius: 6px;
     color: white;
     width: 60vw;
+}
+
+.cta:hover {
+    background-color: #FF9D9E;
+}
+
+footer {
+    margin-top: 15rem;
 }
 
