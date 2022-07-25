@@ -37,3 +37,15 @@ h1 {
     color: #FC7071;
     font-size: 0.8rem;
 }
+
+@media screen and (min-width: 768px) {
+    body {
+        background-image:url(/assets/imgTablet/imgTop.svg) , url(/assets/imgTablet/imgDireita.svg);
+        background-position: top left, right;
+        
+    }
+    form {
+        width: 70%;
+        margin: 0 auto;
+    }
+}

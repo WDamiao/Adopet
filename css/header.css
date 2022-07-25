@@ -21,4 +21,8 @@
     .logo, .usuario {
         display: block;
     }
+
+    .icons {
+        gap: 3rem;
+    }
 }
