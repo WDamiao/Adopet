@@ -1,4 +1,7 @@
-
+body {
+    background-image: url(/assets/imgTop.svg);
+    background-repeat: no-repeat;
+}
 main {
     padding: 1rem;
 }
@@ -9,4 +12,26 @@ main {
     width: 70%;
     color: #3772FF;
     margin-bottom: 1.5rem;
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        background-image: url(/assets/imgTablet/imgTop.svg), url(/assets/imgTablet/imgDireita.svg);
+        background-position: top left, right;
+    }
+
+    main {
+        margin: 0 auto;
+        margin-top: 5.5rem;
+        width: 70%;
+    }
+
+    .textoInicial {
+        font-size: 1.2rem;
+        width: 100%;
+    }
+
+    footer {
+        margin-top: 5.5rem;
+    }
 }
