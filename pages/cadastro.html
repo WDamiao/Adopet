@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,9 +11,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/headerComPatas.css">
+    <link rel="stylesheet" href="/css/formulario.css">
     <link rel="stylesheet" href="../css/cadastro.css">
     <link rel="stylesheet" href="../css/footer.css">
 </head>
+
 <body>
     <header>
         <nav class="navHeader">
@@ -28,28 +31,21 @@
         <h1><img class="logoTitulo" src="../assets/logoAazul.svg" alt=""></h1>
         <p>Ainda não tem cadastro?</p>
         <p>Então, antes de buscar seu melhor amigo, precisamos de alguns dados:</p>
-        <form class="input">
-            <div>
-                <label for="email">Email</label>
-                <input type="email" name="email" placeholder="Escolha seu melhor email">
-            </div>
-            <div>
-                <label for="nome">Nome</label>
-                <input type="text" name="nome" placeholder="Digite seu nome completo">
-            </div>
-            <div>
-                <label for="senha">Senha</label>
-                <input type="password" name="senha" placeholder="Crie uma senha">
-            </div>
-            <div>
-                <label for="confirmarSenha">Confirma sua senha</label>
-                <input type="password" name="confirmarSenha" placeholder="Repita a senha criada acima">
-            </div>
+        <form class="formulario">
+            <label for="email">Email</label>
+            <input type="email" name="email" placeholder="Escolha seu melhor email">
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" placeholder="Digite seu nome completo">
+            <label for="senha">Senha</label>
+            <input type="password" name="senha" placeholder="Crie uma senha">
+            <label for="confirmarSenha">Confirma sua senha</label>
+            <input type="password" name="confirmarSenha" placeholder="Repita a senha criada acima">
         </form>
         <button>Cadastrar</button>
     </main>
     <footer>
         <p>2022 - Desenvolvido por Alura</p>
-    </footer>    
+    </footer>
 </body>
+
 </html>
