@@ -30,11 +30,13 @@ main p {
 .input {
     display: flex;
     flex-direction: column;
-    gap: 2.5rem;
+    
 }
 
 input {
     padding: 0.7rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
     background-color: #F6F6F6;
     width: 90vw;
     border: none;
@@ -69,4 +71,30 @@ button {
 
 button:hover {
     background-color: #ff9d9e;
+}
+
+@media screen and (min-width:768px) {
+    main {
+        margin-top: 4rem;
+        font-size: 1.2rem;
+    }
+
+    .lateral {
+        background-image: url(/assets/imgTablet/imgDireita.svg);
+        background-position: right;
+        right: 0;
+        width: 135px;
+        height: 665px;
+        left: 83%;
+        top: 35%;
+    }
+
+    input {
+        width: 50vw;
+    }
+
+    button {
+        width: 30%;
+        font-size: 1.2rem;
+    }
 }
