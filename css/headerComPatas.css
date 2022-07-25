@@ -1,6 +1,7 @@
 body {
-    background-image: url(/assets/imgTop.svg);
+    background-image: url(/assets/Patas.png), url(/assets/imgTop.svg);
     background-repeat: no-repeat;
+    background-position: top right, top left;
 }
 .logo {
     display: none;
@@ -23,8 +24,9 @@ body {
 
 @media screen and (min-width: 768px) {
     body {
-        background-image: url(/assets/imgTablet/imgTop.svg);
+        background-image: url(/assets/imgTablet/Patas.svg), url(/assets/imgTablet/imgTop.svg);
         background-repeat: no-repeat;
+        background-position: top right, top left;
     }
 
     .logo, .usuario {

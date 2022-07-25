@@ -1,9 +1,6 @@
 body {
     height: 920px;
     width: 100vw;
-    background-image: url(../../assets/Patas.png), url(../../assets/imgTop.svg);
-    background-repeat: no-repeat;
-    background-position: top right, top left;
 }
 
 .lateral {

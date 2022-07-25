@@ -44,6 +44,15 @@ h1 {
         background-position: top left, right;
         
     }
+
+    .textoInicial {
+        width: 65%;
+    }
+
+    main {
+        margin-top: 6rem;
+    }
+
     form {
         width: 70%;
         margin: 0 auto;
