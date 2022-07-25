@@ -1,7 +1,8 @@
-body {
+header {
     background-image: url(/assets/imgTop.svg);
     background-repeat: no-repeat;
 }
+
 .logo {
     display: none;
 }
@@ -22,7 +23,7 @@ body {
 }
 
 @media screen and (min-width: 768px) {
-    body {
+    header {
         background-image: url(/assets/imgTablet/imgTop.svg);
         background-repeat: no-repeat;
     }
