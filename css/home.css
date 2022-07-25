@@ -1,4 +1,7 @@
-
+body {
+    background-image: url(/assets/imgTop.svg);
+    background-repeat: no-repeat;
+}
 main {
     display: flex;
     flex-direction: column;
@@ -48,6 +51,33 @@ main {
     content: url(/assets/ícone\ mensagem.svg);
     margin-right: 0.5rem;
     vertical-align: text-top;  
+}
+
+@media screen and (min-width:768px) {
+    body {
+        max-width: 100vw;
+        background-image: url(/assets/imgTablet/imgTop.svg);
+    }
+
+    main {
+        margin-top: 4rem;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 2rem;
+    }
+    
+    .textoInicial {
+        font-size: 1.2rem;
+    }
+
+    .cards {
+        margin: 0 auto;
+        width: 47%;
+    }
+
+    .cards:last-child {
+        background-color: white;
+    }
 }
 
 
