@@ -58,3 +58,17 @@ h1 {
         margin: 0 auto;
     }
 }
+
+@media screen and (min-width:1440px) {
+    form {
+        width: 30vw;
+    }
+
+    main {
+        margin-top: 1rem;
+    }
+
+    .textoInicial {
+        width: 30vw;
+    }
+}

@@ -1,4 +1,9 @@
 
+body {
+    position: relative;
+    max-width: 100vw;
+}
+
 .lateral {
     position: absolute;
     width: 85px;
@@ -6,7 +11,7 @@
     background-image: url(../../assets/imgEsquerda.png);
     background-repeat: no-repeat;
     left: 0;
-    top: 60%;
+    top: 40%;
     z-index: -1;
 }
 
@@ -53,6 +58,7 @@ label {
 button {
     background-color: #FC7071;
     border: none;
+    font-weight: 600;
     color: white;
     padding: 0.6rem;
     border-radius: 6px;
@@ -76,13 +82,12 @@ button:hover {
         font-size: 1.2rem;
     }
     .lateral {
+        width: 100vw;
+        height: 100vh;
         background-image: url(/assets/imgTablet/imgDireita.svg);
         background-position: right;
-        right: 0;
-        width: 135px;
-        height: 665px;
-        left: 83%;
-        top: 35%;
+        top: 20%;
+        
     }
     
     .formulario {
@@ -99,5 +104,29 @@ button:hover {
 
     button {
         font-size: 1.2rem;
+    }
+}
+
+@media screen and (min-width:1440px) {
+    main {
+        width: 40%;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    input {
+        width:100%
+    }
+
+    .senha {
+        width: 75%;
+        margin: 0 auto;
+        margin-bottom: 1rem;
+    }
+
+    button::after {
+        content: "!";
     }
 }

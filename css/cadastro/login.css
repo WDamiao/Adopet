@@ -10,7 +10,7 @@ body {
     background-image: url(../../assets/imgEsquerda.png);
     background-repeat: no-repeat;
     left: 0;
-    top: 60%;
+    top: 50%;
     z-index: -1;
 }
 
@@ -82,11 +82,10 @@ button:hover {
     .lateral {
         background-image: url(/assets/imgTablet/imgDireita.svg);
         background-position: right;
-        right: 0;
-        width: 135px;
-        height: 665px;
-        left: 83%;
-        top: 35%;
+        width: 100vw;
+        height: 100vh;
+        top: 20%;
+        
     }
 
     input {
@@ -96,5 +95,36 @@ button:hover {
     button {
         width: 30%;
         font-size: 1.2rem;
+    }
+}
+
+@media screen and (min-width:1440px) {
+    main {
+        margin-top: 0;
+        font-size: 1.2rem;
+    }
+
+    .lateral {
+        top: 15%;
+    }
+
+    label {
+        font-weight: 600;
+    }
+
+    input {
+        width: 40vw;
+    }
+
+    .senha {
+        width: 30vw;
+        margin: 0 auto;
+        margin-bottom: 1rem;
+    }
+
+    button {
+        font-weight: 600;
+        width: 15vw;
+        padding: 0.5rem;
     }
 }

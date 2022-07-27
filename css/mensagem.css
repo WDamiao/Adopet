@@ -35,3 +35,18 @@ main {
         margin-top: 5.5rem;
     }
 }
+
+@media screen and (min-width:1440px) {
+    main {
+        margin-top: 1rem;
+    }
+
+    .textoInicial {
+        width: 33vw;
+    }
+
+    form {
+        width: 40vw;
+        margin: 0 auto;
+    }
+}

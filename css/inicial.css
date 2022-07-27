@@ -51,6 +51,10 @@ main {
     background-color: #FF9D9E;
 }
 
+.lastButton {
+    margin-bottom: 2rem;
+}
+
 footer {
     margin-top: 15rem;
 }
@@ -72,10 +76,19 @@ footer {
     }
     .ilustracao {
         width: 40%;
-        margin:0 auto
     }
     .cta {
         width: 90%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .ilustracao {
+        left: 40%;
+    }
+
+    main {
+        width: 35%;
     }
 }
 
