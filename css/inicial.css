@@ -45,6 +45,7 @@ main {
     border-radius: 6px;
     color: white;
     width: 60vw;
+    cursor: pointer;
 }
 
 .cta:hover {

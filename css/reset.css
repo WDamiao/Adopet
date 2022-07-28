@@ -5,3 +5,10 @@
     font-family: Poppins, sans-serif;
 }
 
+.invalid {
+    border: 2px solid red;
+}
+
+.success {
+    border: 2px solid green;
+}

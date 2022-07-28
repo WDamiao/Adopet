@@ -33,19 +33,25 @@
         <p>Então, antes de buscar seu melhor amigo, precisamos de alguns dados:</p>
         <form class="formulario">
             <label for="email">Email</label>
-            <input type="email" name="email" placeholder="Escolha seu melhor email">
+            <input id="email" type="email" name="email" placeholder="Escolha seu melhor email" required>
+            <small class="erroMsg"></small>
             <label for="nome">Nome</label>
-            <input type="text" name="nome" placeholder="Digite seu nome completo">
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required>
+            <small class="erroMsg"></small>
             <label for="senha">Senha</label>
-            <input class="senha" type="password" name="senha" placeholder="Crie uma senha">
+            <input  id="senha" class="senha" type="password" name="senha" placeholder="Crie uma senha" required>
+            <small class="erroMsg erroSenha"></small>
             <label for="confirmarSenha">Confirma sua senha</label>
-            <input class="senha" type="password" name="confirmarSenha" placeholder="Repita a senha criada acima">
+            <input required id="confirmaSenha" class="senha" type="password" name="confirmarSenha" placeholder="Repita a senha criada acima">
+            <small class="erroMsg erroConfirmaSenha"></small>
+            <button type="submit">Cadastrar</button>
         </form>
-        <button>Cadastrar</button>
     </main>
     <footer>
         <p>2022 - Desenvolvido por Alura</p>
     </footer>
+
+    <script src="/js/formValidation.js"></script>
 </body>
 
 </html>

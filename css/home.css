@@ -51,6 +51,7 @@ main {
     color: #737380;
     text-decoration: none;
     font-size: 0.6rem; 
+    cursor: pointer;
 }
 
 .responsavel::before {
