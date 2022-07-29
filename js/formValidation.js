@@ -15,7 +15,7 @@ let erroConfirmaSenha = document.querySelector(".erroConfirmaSenha")
 let strongRegex = new RegExp("^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#\$%\^&\*])(?=.{8,})");
 
 email.addEventListener("keyup", () => {
-    if (email.value.length < 20) {
+    if (email.value.length < 10) {
         email.classList.add("invalid")
         email.classList.remove("success")
         validaEmail = false

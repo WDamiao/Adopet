@@ -1,6 +1,13 @@
 body {
+    position: relative;
     height: 920px;
     width: 100vw;
+}
+
+.erroMsg {
+    text-align: center;
+    color: red;
+    display: none;
 }
 
 .lateral {
@@ -69,6 +76,7 @@ button {
     width: 50%;
     margin-bottom: 15rem;
     cursor: pointer;
+    
 }
 
 button:hover {

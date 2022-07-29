@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,6 +14,7 @@
     <link rel="stylesheet" href="../css/login.css">
     <link rel="stylesheet" href="../css/footer.css">
 </head>
+
 <body>
     <header>
         <nav class="navHeader">
@@ -28,20 +30,21 @@
         <h1><img class="logoTitulo" src="../assets/logoAazul.svg" alt=""></h1>
         <p>Já tem conta? Faça seu login:</p>
         <form class="input">
-        
-                <label for="email">Email</label>
-                <input type="email" name="email" placeholder="insira seu email">
-            
-        
-                <label for="senha">Senha</label>
-                <input class="senha" type="password" name="senha" placeholder="insira sua senha">
-            
+            <small class="erroMsg"></small>
+            <label for="email">Email</label>
+            <input id="email" type="email" name="email" placeholder="insira seu email">
+
+            <label for="senha">Senha</label>
+            <input id="senha" class="senha" type="password" name="senha" placeholder="insira sua senha">
+
             <a href="#">Esqueci minha senha</a>
         </form>
-        <button>Entrar</button>
+        <button onclick="entrar()" type="submit">Entrar</button>
     </main>
     <footer>
         <p>2022 - Desenvolvido por Alura</p>
-    </footer>    
+    </footer>
+    <script src="/js/loginValidation.js"></script>
 </body>
+
 </html>
