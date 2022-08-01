@@ -35,13 +35,14 @@
                 <label for="nome">Nome</label>
                 <input type="text" name="nome" placeholder="Insira seu nome completo">
                 <label for="telefone">Telefone</label>
-                <input type="tel" name="telefone" placeholder="Insira seu telefone e/ou whatsapp">
+                <input onblur="maskTel()" id="tel" type="tel" name="telefone" placeholder="Insira seu telefone e/ou whatsapp">
                 <label for="nome do animal">Nome do animal</label>
                 <input type="text" name="nome do animal" placeholder="Por qual animal você se interessou?">
                 <label for="mensagem">Mensagem</label>
                 <textarea class="campo" name="mensagem" cols="30" rows="10" placeholder="Escreva sua mensagem."></textarea>
                 <button>Enviar</button>
-            </form>   
+            </form> 
+            <script src="/js/telValidation.js"></script>  
     </main>
     <footer>2022 - Desenvolvido por Alura</footer>
 </body>
