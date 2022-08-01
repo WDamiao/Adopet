@@ -30,12 +30,18 @@ h1 {
     width: 5rem;
     margin: 0 auto;
     margin-bottom: 0.5rem;
+    cursor: pointer;
 }
 
 .textoFoto {
     text-align: center;
     color: #FC7071;
     font-size: 0.8rem;
+}
+
+#foto {
+    display: none;
+    
 }
 
 @media screen and (min-width: 768px) {

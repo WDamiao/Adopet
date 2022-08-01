@@ -32,12 +32,13 @@
         <form class="formulario">
             <h1>Perfil</h1>
             <label for="foto">Foto</label>
+            <input type="file" accept="image/*" name="" id="foto">
             <img class="fotoUsuario" src="/assets/Ellipse 2.png">
             <p class="textoFoto">Clique na foto para editar</p>
             <label for="nome">Nome</label>
             <input type="text" name="nome" placeholder="Digite seu nome">
             <label for="telefone">Telefone</label>
-            <input type="tel" name="telefone" placeholder="55 11 XXXXXXXXX">
+            <input id="tel" onblur="maskTel()" type="tel" name="telefone" placeholder="(XX) XXXXX-XXXX">
             <label for="cidade">Cidade</label>
             <input type="text" name="cidade" placeholder="São Paulo">
             <label for="sobre">Sobre</label>
@@ -46,4 +47,6 @@
         </form>
     </main>
     <footer>2022 - Desenvolvido por Alura.</footer>
+    <script src="/js/telValidation.js"></script>
+    <script src="/js/fotoPerfil.js"></script>
 </body>
