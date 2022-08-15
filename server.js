@@ -68,13 +68,6 @@ app.get('/', (req, res) => {
         comportamento: 'Ativa e amável',
         cidade: 'Rio de Janeiro',
         img: '/assets/Imagem - Zelda.png'
-    },{
-        name: '',
-        idade: '',
-        porte: '',
-        comportamento: '',
-        cidade: '',
-        img: ''
     }])
 })
 
