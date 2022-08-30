@@ -33,11 +33,11 @@
         <p class="textoInicial">Envie uma mensagem para a pessoa ou instituição que está cuidando do animal:</p>
             <form class="formulario">
                 <label for="nome">Nome</label>
-                <input type="text" name="nome" placeholder="Insira seu nome completo">
+                <input type="text" name="nome" autocomplete="nope" placeholder="Insira seu nome completo">
                 <label for="telefone">Telefone</label>
-                <input onblur="maskTel()" id="tel" type="tel" name="telefone" placeholder="Insira seu telefone e/ou whatsapp">
+                <input onblur="maskTel()" id="tel" type="tel" name="telefone" autocomplete="nope" placeholder="Insira seu telefone e/ou whatsapp">
                 <label for="nome do animal">Nome do animal</label>
-                <input type="text" name="nome do animal" placeholder="Por qual animal você se interessou?">
+                <input type="text" name="nome do animal" autocomplete="nope" placeholder="Por qual animal você se interessou?">
                 <label for="mensagem">Mensagem</label>
                 <textarea class="campo" name="mensagem" cols="30" rows="10" placeholder="Escreva sua mensagem."></textarea>
                 <button>Enviar</button>
