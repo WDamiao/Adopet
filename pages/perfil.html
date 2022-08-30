@@ -23,7 +23,7 @@
                 <a href="/pages/mensagem.html"> <img src="../assets/Mensagens.png" alt="icone de mensagens"></a>
             </div>
             <div class="usuario">
-                <a href="#"><img class="iconUsuario" src="../assets/Ellipse 2.png" alt="icone de usuário"></a>
+                <a href="#"><img class="iconUsuario" src="/assets/Usuário.png" alt="icone de usuário"></a>
             </div>
         </nav>
     </header>
@@ -33,16 +33,16 @@
             <h1>Perfil</h1>
             <label for="foto">Foto</label>
             <input type="file" accept="image/*" name="" id="foto">
-            <img class="fotoUsuario" src="/assets/Ellipse 2.png">
+            <img class="fotoUsuario" src="/assets/Usuário.png">
             <p class="textoFoto">Clique na foto para editar</p>
             <label for="nome">Nome</label>
-            <input type="text" name="nome" placeholder="Digite seu nome">
+            <input type="text" name="nome" autocomplete="nope" placeholder="Digite seu nome">
             <label for="telefone">Telefone</label>
             <input id="tel" onblur="maskTel()" type="tel" name="telefone" placeholder="(XX) XXXXX-XXXX">
             <label for="cidade">Cidade</label>
             <input type="text" name="cidade" placeholder="São Paulo">
             <label for="sobre">Sobre</label>
-            <textarea class="campo" name="sobre" id="" cols="30" rows="10" placeholder="At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati."></textarea>
+            <textarea class="campo" name="sobre" cols="30" rows="10" placeholder="At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati."></textarea>
             <button>Salvar</button>
         </form>
     </main>
