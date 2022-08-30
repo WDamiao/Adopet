@@ -30,3 +30,9 @@ function maskTel() {
     }
 }
 
+function removeMaskTel() {
+    const textoAtual = tel.value
+    const textoAjustado = textoAtual.replace(/[()-]/g, '')
+    tel.value = textoAjustado
+}
+

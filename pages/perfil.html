@@ -38,7 +38,7 @@
             <label for="nome">Nome</label>
             <input type="text" name="nome" autocomplete="nope" placeholder="Digite seu nome">
             <label for="telefone">Telefone</label>
-            <input id="tel" onblur="maskTel()" type="tel" name="telefone" placeholder="(XX) XXXXX-XXXX">
+            <input id="tel" onblur="maskTel()" onfocus="removeMaskTel()" type="tel" name="telefone" placeholder="(XX) XXXXX-XXXX">
             <label for="cidade">Cidade</label>
             <input type="text" name="cidade" placeholder="São Paulo">
             <label for="sobre">Sobre</label>
@@ -50,3 +50,4 @@
     <script src="/js/telValidation.js"></script>
     <script src="/js/fotoPerfil.js"></script>
 </body>
+</html>

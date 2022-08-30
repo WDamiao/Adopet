@@ -33,10 +33,15 @@ input {
 }
 
 button {
+    cursor: pointer;
     border: none;  
     margin: 0 auto;
     background-color: #FC7071;
     padding: 0.5rem 3rem;
     border-radius: 6px;
     color: white;
+}
+
+button:hover {
+    background-color: #FC4000;
 }
